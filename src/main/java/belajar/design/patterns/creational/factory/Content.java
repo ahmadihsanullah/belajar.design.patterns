@@ -1,6 +1,5 @@
-package belajar.design.patterns.factory;
+package belajar.design.patterns.creational.factory;
 
-import java.sql.Time;
 import java.time.LocalDate;
 
 public interface Content{

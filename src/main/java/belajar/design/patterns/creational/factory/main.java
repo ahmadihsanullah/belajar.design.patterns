@@ -1,4 +1,4 @@
-package belajar.design.patterns.factory;
+package belajar.design.patterns.creational.factory;
 
 import java.time.LocalDate;
 
