@@ -1,6 +1,6 @@
 package belajar.design.patterns.creational.factory;
 
-import java.time.LocalDate;
+import java.time.DayOfWeek;
 
 public interface Content{
     void play();
@@ -27,5 +27,5 @@ class Docker implements Content{
  * ContentCreator
  */
 interface ContentCreator {
-    Content createContent(LocalDate localDate);
+    Content createContent(DayOfWeek dayOfWeek);
 }
